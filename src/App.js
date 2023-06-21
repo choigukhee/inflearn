@@ -1,10 +1,10 @@
 import './App.css';
-import Notification from './chapter_06/NotificatonList';
+import Accommodate from './chapter_07/Accommodate';
 
 function App() {
   return (
     <div className="App">
-      <Notification/>
+      <Accommodate/>
     </div>
   );
 }
