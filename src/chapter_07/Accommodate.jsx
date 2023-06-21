@@ -9,7 +9,7 @@ const Accommodate = () => {
 
   useEffect (()=>{
   setIsFull(count>=MAX_CAPACITY)
-  console.log(`${count}명 수용중`)
+  console.log(`${count}명 수용중입니다`);
   },[count]);
 
   return (
